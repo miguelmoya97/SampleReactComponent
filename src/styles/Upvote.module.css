@@ -1,0 +1,23 @@
+.upvoteContainer {
+    background-color: #F4F6F8;
+    width: 5rem;
+    height: 5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    transition: background-color 0.2s;
+    margin: 0.7rem;
+}
+
+.upvoteContainer.selected {
+    background-color: #E5E8FD;
+}
+
+.arrow {
+    fill: #343A40;
+    height: 80%;
+}
+.arrow.selected{
+    fill: #253CF2;
+}
